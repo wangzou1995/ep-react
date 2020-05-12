@@ -3,6 +3,7 @@ export default defineConfig({
   nodeModulesTransform: {
     type: 'none',
   },
+  hash: true,
   routes: [
     {
       name: 'EP交接',
